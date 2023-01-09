@@ -9,6 +9,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { UsersComponent } from './components/users/users.component';
 import { AlerteButtonComponent } from './components/alerte-button/alerte-button.component';
 import { ListComponent } from './components/list/list.component';
+import { MagieComponent } from './components/magie/magie.component';
+import { FilterListComponent } from './components/filter-list/filter-list.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { ListComponent } from './components/list/list.component';
     UsersComponent,
     AlerteButtonComponent,
     ListComponent,
+    MagieComponent,
+    FilterListComponent,
   ],
   imports: [
     BrowserModule,
