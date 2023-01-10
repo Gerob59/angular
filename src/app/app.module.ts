@@ -15,6 +15,7 @@ import { BoutonGeneriqueComponent } from './components/bouton-generique/bouton-g
 import { BoutonMenuComponent } from './components/bouton-menu/bouton-menu.component';
 import { ListeCoursesComponent } from './components/liste-courses/liste-courses.component';
 import { ReactiveListCourseComponent } from './components/reactive-list-course/reactive-list-course.component';
+import { FormBuilderListComponent } from './components/form-builder-list/form-builder-list.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ReactiveListCourseComponent } from './components/reactive-list-course/r
     BoutonMenuComponent,
     ListeCoursesComponent,
     ReactiveListCourseComponent,
+    FormBuilderListComponent,
   ],
   imports: [
     BrowserModule,

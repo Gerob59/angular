@@ -9,5 +9,5 @@
     <input type="text" formControlName="designation">
     <label>Prix</label>
     <input type="number" formControlName="prix">
-    <button type="submit">Ajouter</button>
+    <button type="submit" [disabled]="!article.valid">Ajouter</button>
 </form>
