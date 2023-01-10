@@ -11,6 +11,8 @@ import { AlerteButtonComponent } from './components/alerte-button/alerte-button.
 import { ListComponent } from './components/list/list.component';
 import { MagieComponent } from './components/magie/magie.component';
 import { FilterListComponent } from './components/filter-list/filter-list.component';
+import { BoutonGeneriqueComponent } from './components/bouton-generique/bouton-generique.component';
+import { BoutonMenuComponent } from './components/bouton-menu/bouton-menu.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { FilterListComponent } from './components/filter-list/filter-list.compon
     ListComponent,
     MagieComponent,
     FilterListComponent,
+    BoutonGeneriqueComponent,
+    BoutonMenuComponent,
   ],
   imports: [
     BrowserModule,
