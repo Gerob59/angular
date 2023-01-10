@@ -13,6 +13,7 @@ import { MagieComponent } from './components/magie/magie.component';
 import { FilterListComponent } from './components/filter-list/filter-list.component';
 import { BoutonGeneriqueComponent } from './components/bouton-generique/bouton-generique.component';
 import { BoutonMenuComponent } from './components/bouton-menu/bouton-menu.component';
+import { ListeCoursesComponent } from './components/liste-courses/liste-courses.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { BoutonMenuComponent } from './components/bouton-menu/bouton-menu.compon
     FilterListComponent,
     BoutonGeneriqueComponent,
     BoutonMenuComponent,
+    ListeCoursesComponent,
   ],
   imports: [
     BrowserModule,

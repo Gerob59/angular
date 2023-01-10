@@ -8,16 +8,16 @@ import { Component } from '@angular/core';
 export class BoutonMenuComponent {
   boutons: any[] = [
     {
-      boutonTexte: 'Ping',
-      alerteMessage: 'Pong',
+      text: 'Ping',
+      message: 'Pong',
     },
     {
-      boutonTexte: 'Marco',
-      alerteMessage: 'Polo',
+      text: 'Marco',
+      message: 'Polo',
     },
     {
-      boutonTexte: 'Philippe',
-      alerteMessage: 'Je sais où tu te cache !',
+      text: 'Philippe',
+      message: 'Je sais où tu te cache !',
     },
   ];
 }
