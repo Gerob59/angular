@@ -21,6 +21,11 @@ import { FormCoursesComponent } from './components/output/form-courses/form-cour
 import { DataCoursesComponent } from './components/output/data-courses/data-courses.component';
 
 import { MatSliderModule } from '@angular/material/slider';
+import { NotFoundComponent } from './commons/not-found/not-found.component';
+import { FooterComponent } from './commons/footer/footer.component';
+import { NavBarComponent } from './commons/nav-bar/nav-bar.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { ProductPageComponent } from './pages/product-page/product-page.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +44,11 @@ import { MatSliderModule } from '@angular/material/slider';
     UserFormComponent,
     FormCoursesComponent,
     DataCoursesComponent,
+    NotFoundComponent,
+    FooterComponent,
+    NavBarComponent,
+    HomePageComponent,
+    ProductPageComponent,
   ],
   imports: [
     BrowserModule,
