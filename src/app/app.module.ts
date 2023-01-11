@@ -17,6 +17,8 @@ import { ListeCoursesComponent } from './components/liste-courses/liste-courses.
 import { ReactiveListCourseComponent } from './components/reactive-list-course/reactive-list-course.component';
 import { FormBuilderListComponent } from './components/form-builder-list/form-builder-list.component';
 import { UserFormComponent } from './components/user-form/user-form.component';
+import { FormCoursesComponent } from './components/output/form-courses/form-courses.component';
+import { DataCoursesComponent } from './components/output/data-courses/data-courses.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,8 @@ import { UserFormComponent } from './components/user-form/user-form.component';
     ReactiveListCourseComponent,
     FormBuilderListComponent,
     UserFormComponent,
+    FormCoursesComponent,
+    DataCoursesComponent,
   ],
   imports: [
     BrowserModule,
