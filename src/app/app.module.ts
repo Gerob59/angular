@@ -20,6 +20,8 @@ import { UserFormComponent } from './components/user-form/user-form.component';
 import { FormCoursesComponent } from './components/output/form-courses/form-courses.component';
 import { DataCoursesComponent } from './components/output/data-courses/data-courses.component';
 
+import { MatSliderModule } from '@angular/material/slider';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,6 +46,7 @@ import { DataCoursesComponent } from './components/output/data-courses/data-cour
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
+    MatSliderModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
