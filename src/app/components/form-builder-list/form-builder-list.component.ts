@@ -18,7 +18,7 @@ export class FormBuilderListComponent {
 
   constructor(private formBuilder: FormBuilder) {}
 
-  private addArticle() {
+  private addArticle(): void {
     this.articles.push(this.article.value);
     this.article.reset();
     this.submitted = false;
